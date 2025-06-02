@@ -5,49 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | My Portfolio</title>
   <link rel="stylesheet" href="css/style.css" />
-  <style>
-    .contact-icons {
-      text-align: center;
-      margin-top: 3rem;
-    }
-
-    .contact-icons a {
-      margin: 0 1.5rem;
-      display: inline-block;
-      transition: transform 0.2s ease;
-    }
-
-    .contact-icons a:hover {
-      transform: scale(1.1);
-    }
-
-    .contact-icons img {
-      width: 48px;
-      height: 48px;
-      filter: brightness(0) invert(1); /* make sure it's visible on dark theme */
-    }
-  </style>
 </head>
 <body>
+  
   <header>
-    <h1>Contact</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </nav>
+    <h1 class="page-title">Contact</h1>
   </header>
+
   <main>
-    <div class="contact-icons">
-      <a href="mailto:lmlukoseviciute@gmail.com" aria-label="Email">
-        <img src="img/email.png" alt="Email Icon">
-      </a>
-      <a href="https://www.linkedin.com/in/laima-lukoseviciute/" target="_blank" aria-label="LinkedIn">
-        <img src="img/linkedin.png" alt="LinkedIn Icon">
-      </a>
+    
+    <div class="contact-icons" style="text-align:center; margin-top:2rem;">
+      <a href="mailto:yourname@example.com" aria-label="Email"><img src="img/email.png" alt="Email Icon" width="48" height="48"></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><img src="img/linkedin.png" alt="LinkedIn Icon" width="48" height="48"></a>
     </div>
+    
   </main>
-  <footer>© 2025 Laima</footer>
+  <footer>© 2025 Your Name</footer>
 </body>
 </html>
