@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | My Portfolio</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .contact-icons {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .contact-icons a {
+      margin: 0 1rem;
+      font-size: 2rem;
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    .contact-icons a:hover {
+      color: #1fa2ff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,8 +35,10 @@
     </nav>
   </header>
   <main>
-    <p>Email: <a href="mailto:lmlukoseviciute@gmail.com">lmlukoseviciute@gmail.com</a></p>
-    <p>LinkedIn: <a href="www.linkedin.com/in/laima-lukoševičiūtė-991b99213" target="_blank">www.linkedin.com/in/laima-lukoševičiūtė-991b99213</a></p>
+    <div class="contact-icons">
+      <a href="mailto:lmlukoseviciute@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="www.linkedin.com/in/laima-lukoševičiūtė-991b99213" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
   </main>
   <footer>© 2025 Laima</footer>
 </body>
